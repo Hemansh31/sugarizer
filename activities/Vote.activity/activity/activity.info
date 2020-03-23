@@ -1,0 +1,6 @@
+[Activity]
+name = Vote Activity
+activity_version = 1
+bundle_id = org.sugarlabs.VoteActivity
+exec = sugar-activity-web
+icon = activity-icon
