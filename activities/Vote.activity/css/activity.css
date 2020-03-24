@@ -9,6 +9,15 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100vw 98vh;
+  overflow: hidden;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr; */
+}
+#wrap {
+  width: 100vw;
+  height: 98vh;
+  background-color: rgba(0, 0, 0, 0.5);
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
