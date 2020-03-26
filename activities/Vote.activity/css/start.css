@@ -1,7 +1,13 @@
 #main-toolbar #activity-button {
   background-image: url(../activity/activity-icon.svg);
 }
+#main-toolbar #add-button {
+  background-image: url(../activity/add.038e3f81.svg);
+}
 body {
+  overflow: hidden;
+}
+#canvas{
   overflow: hidden;
 }
 #wrap{
