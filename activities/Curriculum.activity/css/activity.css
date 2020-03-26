@@ -1,6 +1,15 @@
 #main-toolbar #activity-button {
   background-image: url(../activity/activity-icon.svg);
 }
+#main-toolbar #settings-button {
+  background-image: url(../settings.svg);
+}
+#main-toolbar #network-button {
+  background-image: url(../zoom-home.svg);
+}
+#main-toolbar #skill-button {
+  background-image: url(../tool-copy.svg);
+}
 #canvas{
   overflow: hidden;
   /* position: relative; */
@@ -59,7 +68,7 @@
   background-color: white;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  display: none;
+  /* display: none; */
 }
 .skill{
   border-right-width: 1px;
@@ -129,23 +138,25 @@
   height: 30%;
   margin: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr ;
 }
 .multi{
   width:60%;
   height: 70%;
   align-self: center;
-  margin: auto;
+  margin-left: 40%;
   background-image: url(../mthumbnail.png);
-  background-position: center;
+  background-position: right;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 47px auto;
 }
-#m2{
+/* #m2{
     background-image: url(../cthumbnail.png);
-}
+} */
 #m3{
-    background-image: url(../vthumbnail.png);
+    background-image: url(../view.png);
+    background-position: left;
+    margin-left: 0px;
 }
 p{
   /* font-style: italic; */
